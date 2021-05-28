@@ -29,7 +29,7 @@ export default function Table() {
     return <div>Loading...</div>;
   } else {
     return (
-      <TableBootstrap>
+      <TableBootstrap striped bordered hover>
         <thead>
           <tr>
             <th scope="col">#</th>
